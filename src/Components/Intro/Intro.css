@@ -26,8 +26,8 @@
 }
 .i-name>:nth-child(3){
     font-weight: 100;
-    font-size: 14px;
-    color: var(--gray);
+    font-size: 18px;
+    color: var(--black);
     margin-top: 10px;
 }
 .i-button{
@@ -47,6 +47,15 @@
 }
 
 
+.glow-icon {
+  transition: all 0.3s ease-in-out;
+}
+
+/* 🌙✨ Soft Glow on Hover */
+.glow-icon:hover {
+  filter: drop-shadow(0 0 5px rgb(218, 136, 4));
+  transform: scale(0.8);
+}
 
 
 

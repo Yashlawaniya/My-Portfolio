@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.55f2e6a7.css",
+    "main.js": "/static/js/main.2921423e.js",
+    "static/media/yash.png": "/static/media/yash.32d4b20c01b49f3c1cca.png",
+    "static/media/resume.pdf": "/static/media/resume.935686fdc23f2070241f.pdf",
+    "static/media/react.png": "/static/media/react.0d5be2f29fb0707f5690.png",
+    "static/media/glassesimoji.png": "/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/mongodb.png": "/static/media/mongodb.259fe79afd0ce9a3dc82.png",
+    "static/media/thumbup.png": "/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/humble.png": "/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/heartemoji.png": "/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/wave.png": "/static/media/wave.fdfef4069ad90f610990.png",
+    "static/media/crown.png": "/static/media/crown.dbe416beae9b49b842ab.png",
+    "static/media/Vector2.png": "/static/media/Vector2.28db5bfd58081dd1df1b.png",
+    "static/media/glasses.png": "/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "static/media/node.png": "/static/media/node.63d2a094002e0a8ad015.png",
+    "index.html": "/index.html",
+    "main.55f2e6a7.css.map": "/static/css/main.55f2e6a7.css.map",
+    "main.2921423e.js.map": "/static/js/main.2921423e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55f2e6a7.css",
+    "static/js/main.2921423e.js"
+  ]
+}

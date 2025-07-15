@@ -1,3 +1,15 @@
+a {
+  color: var(--darkorange);           /* Or use your exact shade like rgb(255, 153, 0) */
+  text-decoration: none;   /* Removes underline */
+  font-weight: bold;       /* Optional: matches heading feel */
+}
+
+/* Optional: add hover effect */
+a:hover {
+  text-decoration: underline;
+  color: darkorange;
+}
+
 .works {
   padding: 0 3rem 0 3rem;
   display: flex;
@@ -25,7 +37,7 @@
   font-weight: bold;
 }
 .awesome > :nth-child(3) {
-  color: var(--blue);
+  color: var(--darkorange);
   font-size: 14px;
   margin-top: 1rem;
 }

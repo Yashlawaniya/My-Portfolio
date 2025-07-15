@@ -32,27 +32,32 @@ const Works = () => {
           <span>Some of My Project Works</span>
           <div className="project-line">
             <FaStar className="icon" />
-            <span>  Voice Assistant - JARVIS</span>
+            <a href="https://github.com/Yashlawaniya/My-Portfolio"><span>  PortFrame</span></a>
             <br />
             <br />
             <FaStar className="icon" />
-            <span>  Responsive Wheather Web App</span>
+            <a href="https://github.com/Yashlawaniya/My_Js_projects/tree/main/Jarvis"><span>  Voice Assistant - JARVIS</span></a>
             <br />
             <br />
             <FaStar className="icon" />
-            <span>  Eco-Tracker</span>
+            <a href="https://github.com/Yashlawaniya/Eco-Tracker"><span>  Eco-Tracker</span></a>
             <br />
             <br />
             <FaStar className="icon" />
-            <span>  Text-To-Voice Converter</span>
+            <a href="https://github.com/Yashlawaniya/My_Js_projects/tree/main/Weather%20app"><span>  Responsive Wheather Web App</span></a>
+            <br />
+            <br />
+            
+            <FaStar className="icon" />
+            <a href="https://github.com/Yashlawaniya/My_Js_projects/tree/main/Text-To-Voice%20Converter"><span>  Text-To-Voice Converter</span></a>
             <br />
             <br />
             <FaStar className="icon" />
-            <span>  AI-Chatbot</span>
+            <a href="https://github.com/Yashlawaniya/My_Js_projects/tree/main/Ai%20Chatbot"><span>  AI-Chatbot</span></a>
           </div>
-          <p>#Available on GitHub</p>
+          {/* <p>#Available on GitHub</p> */}
           <Link to="contact" smooth={true} spy={true}>
-            <button className="button s-button">Hire Me</button>
+            <button className="button s-button button-hover-effect">Hire Me</button>
           </Link>
           <div
             className="blur s-blur1"

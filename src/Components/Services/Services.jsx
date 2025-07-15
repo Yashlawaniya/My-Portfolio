@@ -25,10 +25,10 @@ const Services = () => {
         <div className="awesome">
         <span style={{color: darkMode? "white" : ""}}>My Awesome</span>
         <span>services</span>
-        <span>I’m a passionate developer learning to build websites and web apps with modern tools
-            <br /> like React, Node.js, and etc. <br /> I'm focused on improving every day and excited to work on real-world <br />projects that solve real problems.</span>
+        <spane  style={{color: darkMode? "white" : ""}}>I’m a passionate developer learning to build websites and web apps with modern tools
+            <br /> like React, Node.js, and etc. <br /> I'm focused on improving every day and excited to work on real-world <br />projects that solve real problems.</spane>
         <a href={resume} download>
-           <button className="button s-button">Download CV</button>
+           <button className="button s-button button-hover-effect">Download CV</button>
               
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>

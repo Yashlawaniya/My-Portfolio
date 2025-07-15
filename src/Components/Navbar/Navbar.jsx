@@ -2,11 +2,12 @@ import React from 'react'
 import './Navbar.css'
 import Toggle from '../Toggle/Toggle'
 import { Link } from "react-scroll";
+import { FaArrowUp } from 'react-icons/fa';
 import Services from '../Services/Services';
 
 function Navbar() {
   return (
-    <div className="n-wrapper">
+    <div className="n-wrapper" id="Navbar">
         <div className="n-left">
             <div className="n-name">YASH LAWANIYA</div>
             <Toggle />
@@ -26,12 +27,14 @@ function Navbar() {
                     <li>Portfolio</li></Link>
                     <Link spy={true} to='Testimonials' smooth={true} >
                     <li>Testimonials</li></Link> */}
+                    
+                    
          
                     
                 </ul>
             </div>
             <Link spy={true} to='contact' smooth={true} >
-            <button className="button n-button" >
+            <button className="button n-button button-hover-effect" >
                 Contact 
             </button>
             </Link>

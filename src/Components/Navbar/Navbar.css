@@ -41,3 +41,13 @@
     display: none;
   }
 }
+
+/* .button-hover-effect {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button-hover-effect:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 8px 20px rgba(244, 244, 244, 0.74);
+  transform: scale(1.1) rotate(1deg);
+} */

@@ -29,17 +29,17 @@ const Intro = () => {
             <div className="i-name">
                 <span style={{color: darkMode? "white" : ""}}>Hy! I Am </span>
                 <span>YASH LAWANIYA</span>
-                <span>Frontend Developer with rich experience of web designing and development, producting the Quality work</span>
+                <span style={{color: darkMode? "white" : ""}}>Full-Stack Developer with rich experience of web designing and development, producting the Quality work</span>
             </div>
 
             <Link to="contact" smooth={true} duration={500}>
-  <button className="button i-button">Hire me</button>
+  <button className="button i-button button-hover-effect">Hire me</button>
 </Link>
 
             <div className="i-icons">
-                <a href="https://github.com/Yashlawaniya"><img src={Github} alt="" /></a>
-                <a href="https://www.instagram.com/duhh_itzz.yash/"><img src={Intagram} alt="" /></a>
-                <a href="https://www.linkedin.com/in/yashlawaniyadev/"><img src={LinkedIn} alt="" /></a>
+                <a href="https://github.com/Yashlawaniya"><img src={Github} alt="" className='glow-icon' /></a>
+                <a href="https://www.instagram.com/duhh_itzz.yash/"><img src={Intagram} alt="" className='glow-icon'/></a>
+                <a href="https://www.linkedin.com/in/yashlawaniyadev/"><img src={LinkedIn} alt="" className='glow-icon'/></a>
                 
             </div>
 
@@ -69,7 +69,7 @@ const Intro = () => {
             transition={transition}
             className="floating-div"
             >
-                <FloatingDiv image={thumbup} txt1='Best Design' txt2= 'Award'/>
+                <FloatingDiv image={thumbup} txt1='JAVA' txt2= ''/>
             </motion.div>
 
 {/* Blur divs */}
